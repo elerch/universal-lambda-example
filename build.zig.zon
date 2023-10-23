@@ -4,12 +4,12 @@
 
     .dependencies = .{
         .universal_lambda_build = .{
-            .url = "https://git.lerch.org/lobo/universal-lambda-zig/archive/70b0fda03b9c54a6eda8d61cb8ab8b9d9f29b2ef.tar.gz",
-            .hash = "122004f2a4ad253be9b8d7989ca6508af1483d8a593ca7fee93627444b2b37d170d2",
+            .url = "https://git.lerch.org/lobo/universal-lambda-zig/archive/6c89380fea51686b775a93d9a68150262a20d513.tar.gz",
+            .hash = "1220173c05fa58d0dceda2e2de99edb1a68b859006747cfcf80d7c908dda95f87db2",
         },
         .flexilib = .{
-            .url = "https://git.lerch.org/lobo/flexilib/archive/c44ad2ba84df735421bef23a2ad612968fb50f06.tar.gz",
-            .hash = "122051fdfeefdd75653d3dd678c8aa297150c2893f5fad0728e0d953481383690dbc",
+            .url = "https://git.lerch.org/lobo/flexilib/archive/3d3dab9c792651477932e2b61c9f4794ac694dcb.tar.gz",
+            .hash = "1220fd7a614fe3c9f6006b630bba528e2ec9dca9c66f5ff10f7e471ad2bdd41b6c89",
         },
     },
 }
