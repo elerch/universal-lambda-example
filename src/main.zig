@@ -19,3 +19,7 @@ fn handler(allocator: std.mem.Allocator, event_data: []const u8, context: interf
     try writer.print("Event data passed to handler: {s}\n", .{event_data});
     return al.items;
 }
+
+test "simple test" {
+    try std.testing.expectEqual(@as(usize, 4), 2 + 2);
+}
