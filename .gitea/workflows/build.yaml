@@ -22,6 +22,8 @@ jobs:
       - run: tar x -C /usr/local -f zig-linux-${ARCH}-${ZIG_VERSION}.tar.xz
       - run: ln -s /usr/local/zig-linux-${ARCH}-${ZIG_VERSION}/zig /usr/local/bin/zig
       - run: zig build
+      - run: zig build flexilib
+      - run: zig build standalone_server
       - run: zig build -Dtarget=arm-linux          # we want to know we can build for 32 bit 
       - run: zig build -Dtarget=wasm32-wasi        # Cloudflare requires wasm
       - run: zig build -Dtarget=aarch64-linux-musl # AWS Lambda uses this

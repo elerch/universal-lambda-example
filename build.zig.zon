@@ -4,8 +4,8 @@
 
     .dependencies = .{
         .universal_lambda_build = .{
-            .url = "https://git.lerch.org/lobo/universal-lambda-zig/archive/07366606696081f324591b66ab7a9a176a38424c.tar.gz",
-            .hash = "122049daa19f61d778a79ffb82c64775ca5132ee5c4797d7f7d76667ab82593917cd",
+            .url = "https://git.lerch.org/lobo/universal-lambda-zig/archive/4c987d0959f120acccf18cce342b692231282133.tar.gz",
+            .hash = "122013ce61767eaf4a099c682172e20a3912245153dc357589d9a62e67feefe9bfc7",
         },
         .flexilib = .{
             .url = "https://git.lerch.org/lobo/flexilib/archive/3d3dab9c792651477932e2b61c9f4794ac694dcb.tar.gz",
